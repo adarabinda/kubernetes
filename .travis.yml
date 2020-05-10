@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- 10.13.0
+install:
+- npm install
+script:
+- npm run test
+branches:
+  only:
+  - master
+  - dev
+deploy:
+  provider: heroku
+  api_key:
+    secure: Y++J711/2kxdV3YkZEAJNnirBHlzvn5uiUMpH0EdoIpR7iw1uRxVWgMNgksotpyBidL55c2FqB0GK5wZfwlJggi44sHahcOuFbkfftln1kdK6ucpR1KPSulw7mv6EWcVaSrGwp47k0BScwTuEdjSohS1ksC04roVTBHkbwmgjzBRayPkj7eJBvgxSNBIGHXzLzNVU9C0EVwWJEEPV+b0LNX1+RvIkRpaQgCoGIzwVtVhqQnE4O41raRy3yxOwVgtNDbq1kEgiWeXE0Rr+WhS5Nvw0j6QPyeOCNRUg9t7IcE2n71aQu5Axj1VOl8IgBhqJXXnT+bqtgdAnGkriX8WOjwKOb2ZLghXvT5vl5/uTv/J5BRsfJRa3jmMkm8X9oXyGb1OJ6aawzRhy2zdfRzgPJ2tqm1Ak7MUENUZ4jk+4LDXSJ6gQcQw4ZWPnxxTjPghV+g7JJnqpN5xkgsDxfWyLBDCbjm6K8cSox/fyOjVy+q+ushVwFaVxFG8NQb5vsySX00RqnPZoLwnfhhJaPUV1b3q0B3mFFDYplHry6ANTOED99t8WIKxBpUZJkMyqS0VjEjgNm79LT7K0m8gWJ2L4WrVPe3V3drnj36BbOaVGwbdA/sPIi6n8ZEz6rAd/exBgQ1/Jg7mMmHB6v4Eyw4Op4rn8Vnv/JxqvFvzPLgwtZ8=
+  app:
+    master: my-node
+    dev: node-hello-world-staging
+
