@@ -1,0 +1,27 @@
+{
+  "name": "my-project1",
+  "version": "1.0.0",
+  "description": "\"# test-heroku\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarabinda/kubernetes.git"
+  },
+  "author": "arabinda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adarabinda/kubernetes/issues"
+  },
+  "homepage": "https://github.com/adarabinda/kubernetes#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "supertest": "^4.0.2"
+  }
+}
