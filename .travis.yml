@@ -17,4 +17,4 @@ deploy:
     master: my-node
     dev: node-hello-world-staging
 web:
-  node app.js
+  npm start
