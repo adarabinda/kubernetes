@@ -4,7 +4,7 @@
   "description": "\"# test-heroku\"",
   "main": "app.js",
   "scripts": {
-     "test": "jest"
+     "start": "node app.js"
   },
   "repository": {
     "type": "git",
