@@ -15,6 +15,4 @@ deploy:
     secure: qC/2+gjITpiKHhm+cIxD1Ifgo/VLQtPLAY+mEy5SXFNnD/lXLNqyCv86bb/bJlgazhSi9j8jKjr1zqh9XxeRId2VQ9cMxXK0lqBWY2k40qQwv6z1CjI3MEh3MXX1ujdTj9WBfZr3oXFetuaFZExCFb7V5+Z5VF7Shg4xA230FrRQulFAUIOG+IRnR3PTtoN/D+R25z8wyiCN4/wqlLM0mOHCevIztwXhfV2qOf4gHbXmz5RCeQvVGkyYfxc4eIplMiSLC+sMqOHUGNuIaT/UQKuxs5bJPWOJJYOQ0nZEqErq3BC/2eosijEJktn+awjcvYdSLGvefOAJ0ROu5SyBerDlE5M2oBr0QrPBVaybR5EJ4k5tl/WDiRfIqNdj4QThtDzzrDwYlx0O/ouhaB0wOYu7ZEaPKvV1BuI+6oAmAAnUz5zfq1weN1Nsw38FhNs88W4cjnEW1luzv8noLG+ENlB+PG1k00lwbvcJfH1vs4UZ+GsnL/Gt2+TZeZPrzBI3xNCvCt3KQEo0o++PXDLM2MrNAcZGs8I6JTvd0E57K4jMM/shxJAXHAovV6iTsj4CHT3O291GoC9U/N+RIDViiqmcWx7vuxvo2GW6I1sFyH/WOmwuqtfHs1UtwEg/IEfdsC2LaYxetTNd0IKa3fI3sUBlEotX1dXndXgNRj3t9Mg=
   app:
     master: my-node
-    dev: node-hello-world-staging
-web:
-  npm start
+    
