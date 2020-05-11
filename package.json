@@ -2,7 +2,7 @@
   "name": "my-project1",
   "version": "1.0.0",
   "description": "\"# test-heroku\"",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
      "test": "jest"
   },
